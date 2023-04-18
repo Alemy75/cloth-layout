@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Vite App</title>
+</head>
+<body>
+<nav class="nav">
+    <div class="container">
+        <div class="nav__wrap">
+            <div id="nav-btn" class="nav__btn">
+                <span></span>
+                <span class="little"></span>
+            </div>
+            <h1>Заголовок</h1>
+            <ul>
+                <li><a href="https://vk.com/im?peers=132632065_c183_c239&sel=612770188">Ярославль</a></li>
+                <li>
+                    <a href="">
+                        Избранное
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Корзина
+                    </a>
+                </li>
+                <li id="login-btn">
+                    <span href="">Войти</span>
+                </li>
+                <span id="search-btn">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M9.22827 2.21606C12.8181 2.21606 15.7283 5.12621 15.7283 8.71606C15.7283 10.5842 14.9402 12.2683 13.6783 13.4539L17.2898 17.1885L16.5699 17.8826L12.8959 14.0832C11.852 14.798 10.589 15.2161 9.22827 15.2161C5.63842 15.2161 2.72827 12.3059 2.72827 8.71606C2.72827 5.12621 5.63842 2.21606 9.22827 2.21606ZM9.22827 14.2161C12.2658 14.2161 14.7283 11.7536 14.7283 8.71606C14.7283 5.6785 12.2658 3.21606 9.22827 3.21606C6.19071 3.21606 3.72827 5.6785 3.72827 8.71606C3.72827 11.7536 6.19071 14.2161 9.22827 14.2161Z"
+                        ></path>
+                    </svg>
+                </span>
+            </ul>
+        </div>
+    </div>
+</nav>
+<header class="header">
+    <article class="header__logo">
+        <h1>Заголовок</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quas.</p>
+    </article>
+</header>
+<section class="popups">
+    <div id="nav-popup" class="popup">
+        <div class="popup__content">
+            <ul>
+                <li><h1>Навигация</h1></li>
+                <li>
+                    <a href="">Ссылка</a>
+                </li>
+                <li>
+                    <a href="">Ссылка</a>
+                </li>
+                <li>
+                    <a href="">Ссылка</a>
+                </li>
+            </ul>
+            <span id="nav-close">Закрыть</span>
+        </div>
+    </div>
+</section>
+
+<section class="popups">
+    <div id="login-popup" class="popup">
+        <div class="popup__content">
+            <ul>
+                <li><h1>Авторизация</h1></li>
+
+            </ul>
+            <span id="login-close">Закрыть</span>
+        </div>
+        <form class="form" action="">
+            <input placeholder="Логин..." class="input" type="text">
+            <input placeholder="Пароль..." class="input" type="password">
+            <button class="button-form" type="submit">Войти</button>
+        </form>
+    </div>
+</section>
+
+<section class="popups">
+    <div id="search-popup" class="popup">
+        <div class="popup__content">
+            <ul>
+                <li><h1>Поиск</h1></li>
+            </ul>
+            <span id="search-close">Закрыть</span>
+        </div>
+        <form class="form" action="">
+            <input placeholder="Поиск..." class="input" type="text">
+            <button class="button-form" type="submit">Найти</button>
+        </form>
+    </div>
+</section>
+
+<section class="second">
+    <img src="./img/left.jpg" alt="">
+    <img src="./img/right.jpg" alt="">
+</section>
+<script type="module" src="/main.js">
+
+</script>
+</body>
+</html>

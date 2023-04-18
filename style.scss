@@ -1,0 +1,76 @@
+@import "nav";
+@import "popup";
+@import "footer";
+@import "header";
+@import "second";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+svg {
+  width: 25px;
+  height: 25px;
+  fill: white;
+  &:hover {
+    cursor: pointer;
+    fill: wheat;
+  }
+}
+body {
+  color: white;
+  background-color: #2f2f2f;
+  font: 12px/1.4em HelveticaNeue,Arial,sans-serif;
+}
+
+.svg {
+  fill: white;
+}
+
+.container {
+  margin: 0 4em;
+}
+
+ul, a, h1, p{
+  all: unset;
+
+}
+
+h1 {
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+
+
+.input {
+  all: unset;
+  margin-bottom: 1em;
+  padding: 1em 0;
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #cccccc50;
+}
+
+.form {
+  color: black;
+  margin: 0 2em;
+}
+
+.button-form {
+  all: unset;
+  text-align: center;
+  border: 1px solid black;
+  width: 100%;
+  margin: 2em 0;
+  padding: 1em 0;
+  color: white;
+  background: #000;
+  &:hover {
+    color: black;
+    background: white;
+    cursor: pointer;
+  }
+}

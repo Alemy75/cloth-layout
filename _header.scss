@@ -1,0 +1,25 @@
+.header {
+  min-height: 100vh;
+  background: url("./img/bg.png");
+  /* задает стартовое положение изображения на странице */
+  background-position: center center;
+  /* определяет размер изображения на странице */
+  background-size: cover;
+  &__logo {
+    padding-top: 40vh;
+    width: 100%;
+    text-align: center;
+    & h1 {
+      display: block;
+      font: 4em HelveticaNeue,Arial,sans-serif;
+      font-weight: 200;
+      @media (max-width: 460px) {
+        font-size: 3em;
+      }
+    }
+    & p {
+      margin: 2em;
+      display: block;
+    }
+  }
+}
