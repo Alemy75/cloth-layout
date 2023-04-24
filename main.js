@@ -6,6 +6,7 @@ let navClose = document.getElementById('nav-close')
 
 let loginPopup = document.getElementById('login-popup')
 let loginBtn = document.getElementById('login-btn')
+let login1Btn = document.getElementById('login-btn1')
 let loginClose = document.getElementById('login-close')
 
 let searchPopup = document.getElementById('search-popup')
@@ -33,6 +34,16 @@ searchClose.addEventListener('click', () => {
 })
 
 loginBtn.addEventListener('click', () => {
+    loginPopup.classList.add('popup_active')
+    navPopup.classList.remove('popup_active')
+    searchPopup.classList.remove('popup_active')
+})
+
+loginClose.addEventListener('click', () => {
+    loginPopup.classList.remove('popup_active')
+})
+
+login1Btn.addEventListener('click', () => {
     loginPopup.classList.add('popup_active')
     navPopup.classList.remove('popup_active')
     searchPopup.classList.remove('popup_active')
